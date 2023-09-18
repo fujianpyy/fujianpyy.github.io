@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #AED1CD;
+}
+.main {
+  z-index: 2;
+  position: relative;
+  width: 1260px;
+  height: 900px;
+  margin: 25px auto;
+  border: 3px solid #1E4746;
+  border-radius: 30px;
+  box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+.main .foot {
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main .foot span {
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.6);
+}
+.main .demoAll {
+  position: absolute;
+  width: 6270px;
+  height: 894px;
+  transition: all 0.1s ease;
+}
+.main .demoAll .demo1 {
+  position: absolute;
+  width: 1254px;
+  height: 894px;
+  background-color: #000000;
+}
+.main .demoAll .demo2 {
+  position: absolute;
+  width: 1254px;
+  height: 894px;
+  background-color: #ffffff;
+}
+.main .demoAll .demo2 .top {
+  position: absolute;
+  top: 0;
+  width: 1254px;
+  height: 150px;
+  background-color: #000000;
+}
+.main .demoAll .demo2 .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 1254px;
+  height: 150px;
+  background-color: #000000;
+}
+.main .demoAll .demo3 {
+  position: absolute;
+  width: 1254px;
+  height: 894px;
+  background-color: #ffffff;
+}
+.main .demoAll .demo3 .left {
+  position: absolute;
+  left: 0;
+  width: 300px;
+  height: 894px;
+  background-color: #000000;
+}
+.main .demoAll .demo4 {
+  position: absolute;
+  width: 1254px;
+  height: 894px;
+  background-color: #ffffff;
+}
+.main .demoAll .demo4 .top {
+  position: absolute;
+  top: 0;
+  width: 1254px;
+  height: 150px;
+  background-color: #000000;
+}
+.main .demoAll .demo4 .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 1254px;
+  height: 100px;
+  background-color: #000000;
+}
+.main .demoAll .demo4 .left {
+  position: absolute;
+  top: 150px;
+  left: 0;
+  width: 250px;
+  height: 644px;
+  background-color: #003332;
+}
+.main .demoAll .demo5 {
+  position: absolute;
+  width: 1254px;
+  height: 894px;
+  background-color: #ffffff;
+}
+.main .demoAll .demo5 .top1 {
+  position: absolute;
+  top: 0;
+  width: 1254px;
+  height: 150px;
+  background-color: #000000;
+}
+.main .demoAll .demo5 .top2 {
+  position: absolute;
+  top: 150px;
+  width: 1254px;
+  height: 100px;
+  background-color: #1d2e25;
+}
+.main .demoAll .demo5 .bottom {
+  position: absolute;
+  bottom: 0;
+  width: 1254px;
+  height: 100px;
+  background-color: #000000;
+}
+.main .demoAll .demo5 .left {
+  position: absolute;
+  top: 250px;
+  left: 0;
+  width: 300px;
+  height: 544px;
+  background-color: #003332;
+}
+.main .demoAll .demo5 .right {
+  position: absolute;
+  top: 250px;
+  right: 0;
+  width: 300px;
+  height: 544px;
+  background-color: #1E4746;
+}
+.button {
+  position: relative;
+  width: 1260px;
+  height: 900px;
+  transform: translateY(-925px);
+  margin: 25px auto;
+}
+.button .before {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -150px;
+  transition: all 0.2s ease;
+}
+.button .before::before {
+  content: '';
+  font: 400 100px/100px 'icomoon';
+  color: #24342C;
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.button .after {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -150px;
+}
+.button .after::after {
+  content: '';
+  font: 400 100px/100px 'icomoon';
+  color: #24342C;
+  display: block;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.active {
+  transform: scale(1.8);
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  background: #ffffff;
+}
